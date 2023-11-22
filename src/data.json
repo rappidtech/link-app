@@ -1,0 +1,158 @@
+{
+    "logo": "./favicon.jpg",
+    "titulo": "HEALTHY FOOD",
+    "subtitulo": "@healthyfood",
+    "descripcion": "Descripción de la página",
+    "poweredBy": "RappidTech",
+    "enlacePrincipal": "https://rappidtech.com",
+    "enlaceRappid": "https://rappidtech.com",
+    "redes": [
+        {
+            "icon": "faFacebook",
+            "nombre": "Facebook",
+            "url": "https://facebook.com",
+            "render": "si"
+        },
+        {
+            "icon": "faInstagram",
+            "nombre": "Instagram",
+            "url": "https://instagram.com",
+            "render": "si"
+        },
+        {
+            "icon": "faTwitter",
+            "nombre": "Twitter",
+            "url": "https://twitter.com",
+            "render": "si"
+        },
+        {
+            "icon": "faYoutube",
+            "nombre": "Youtube",
+            "url": "https://youtube.com",
+            "render": "si"
+        },
+        {
+            "icon": "faWhatsapp",
+            "nombre": "Whatsapp",
+            "url": "https://whatsapp.com",
+            "render": "si"
+        },
+        {
+            "icon": "faLinkedin",
+            "nombre": "Linkedin",
+            "url": "https://linkedin.com",
+            "render": "no"
+        },
+        {
+            "icon": "faPinterest",
+            "nombre": "Pinterest",
+            "url": "https://pinterest.com",
+            "render": "no"
+        },
+        {
+            "icon": "faSnapchat",
+            "nombre": "Snapchat",
+            "url": "https://snapchat.com",
+            "render": "no"
+        },
+        {
+            "icon": "faTiktok",
+            "nombre": "Tiktok",
+            "url": "https://tiktok.com",
+            "render": "no"
+        },
+        {
+            "icon": "faTelegram",
+            "nombre": "Telegram",
+            "url": "https://telegram.com",
+            "render": "no"
+        },
+        {
+            "icon": "faSpotify",
+            "nombre": "Spotify",
+            "url": "https://spotify.com",
+            "render": "no"
+        },
+        {
+            "icon": "faSoundcloud",
+            "nombre": "Soundcloud",
+            "url": "https://soundcloud.com",
+            "render": "no"
+        },
+        {
+            "icon": "faGithub",
+            "nombre": "Github",
+            "url": "https://github.com",
+            "render": "no"
+        },
+        {
+            "icon": "faTwitch",
+            "nombre": "Twitch",
+            "url": "https://twitch.com",
+            "render": "no"
+        }
+    ],
+    "enlaces": [
+      { 
+        "icon": "faUtensils",
+        "nombre": "Menu",
+        "url": "https://enlace1.com",
+        "render": "si"
+      },
+      { 
+        "icon": "faShoppingCart",
+        "nombre": "Order Here",
+        "url": "https://enlace2.com",
+        "render": "si"
+      },
+      { 
+        "icon": "faYoutube",
+        "nombre": "My Youtube Channel",
+        "url": "https://enlace3.com",
+        "render": "si"
+      },
+      { 
+        "icon": "faDownload",
+        "nombre": "Download my ebook",
+        "url": "https://rappidtech.com",
+        "render": "si"
+      },
+      { 
+        "icon": "faWhatsapp",
+        "nombre": "Whatsapp",
+        "url": "https://enlace5.com",
+        "render": "si"
+      },
+      { 
+        "icon": "",
+        "nombre": "Enlace 6",
+        "url": "https://enlace6.com",
+        "render": "no"
+      },
+      { 
+        "icon": "",
+        "nombre": "Enlace 7",
+        "url": "https://enlace7.com",
+        "render": "no"
+      },
+      { 
+        "icon": "",
+        "nombre": "Enlace 8",
+        "url": "https://enlace8.com",
+        "render": "no"
+      },
+      { 
+        "icon": "",
+        "nombre": "Enlace 9",
+        "url": "https://enlace9.com",
+        "render": "no"
+      },
+      { 
+        "icon": "",
+        "nombre": "Enlace 10",
+        "url": "https://enlace10.com",
+        "render": "no"
+      }
+    ]
+  }
+  
