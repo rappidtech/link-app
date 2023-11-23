@@ -25,7 +25,7 @@ const LogoImg = styled.img`
 function Logo({ src, link }) {
     return (
         <LogoContainer>
-            <a href={link}><LogoImg src={src} alt="Logo" /></a>
+            <a target='blank' href={link}><LogoImg src={src} alt="Logo" /></a>
         </LogoContainer>
     );
 }

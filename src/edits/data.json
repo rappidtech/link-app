@@ -1,123 +1,123 @@
 {
-    "logo": "./Logo-MaGopan.svg",
-    "titulo": "Panificación MaGopan",
-    "subtitulo": "Nuestras sucursales:\nFederico Rossi 623, Yerba Buena | Tel: 3812621817\nCoronel Zeleya 264 SMT | Tel: 3814502774",
+    "logo": "./icon-rappid.svg",
+    "titulo": "RAppID Tech",
+    "subtitulo": "Responsive Applications and Innovative Design\n\nUX & UI Design |  Web & Mobile Apps", 
     "descripcion": "Descripción de la página",
     "poweredBy": "RappidTech",
-    "enlacePrincipal": "https://www.magopan.com/links",
-    "enlacePrinCorto": "magopan.com/links",
+    "enlacePrincipal": "https://rappidtech.com/links/rappidtech",
+    "enlacePrinCorto": "rappidtech.com/links/rappidtech",
     "enlaceRappid": "https://rappidtech.com/links/rappidtech",
     "redes": [
       {
-          "icon": "faWhatsapp",
-          "iconImg": "",
-          "nombre": "Whatsapp",
-          "url": "https://api.whatsapp.com/send/?phone=5493816503152&text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+sus+productos&type=phone_number&app_absent=0",
-          "render": "si"
+        "icon": "faWhatsapp",
+        "iconImg": "",
+        "nombre": "Whatsapp",
+        "url": "https://wa.me/5493814094843?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
+        "render": "no"
       },
       {
-          "icon": "faInstagram",
-          "iconImg": "",
-          "nombre": "Instagram",
-          "url": "https://www.instagram.com/panificacionmagopan/",
-          "render": "si"
+        "icon": "faInstagram",
+        "iconImg": "",
+        "nombre": "Instagram",
+        "url": "https://www.instagram.com/rappidtech/",
+        "render": "si"
       },
       {
-        "icon": "faFacebook",
-            "iconImg": "./facebook-icon.svg",
-            "nombre": "Facebook",
-            "url": "https://m.facebook.com/people/Panificaci%C3%B3n-MaGopan/100071715284389/",
-            "render": "si"
-        },
-        {
-            "icon": "faTwitter",
-            "iconImg": "",
-            "nombre": "Twitter",
-            "url": "https://twitter.com",
-            "render": "no"
-        },
-        {
-            "icon": "faYoutube",
-            "iconImg": "",
-            "nombre": "Youtube",
-            "url": "https://youtube.com",
-            "render": "no"
-        },
-        {
-            "icon": "faLinkedin",
-            "nombre": "Linkedin",
-            "url": "https://linkedin.com",
-            "render": "no"
-        },
-        {
-            "icon": "faPinterest",
-            "nombre": "Pinterest",
-            "url": "https://pinterest.com",
-            "render": "no"
-        },
-        {
-            "icon": "faSnapchat",
-            "nombre": "Snapchat",
-            "url": "https://snapchat.com",
-            "render": "no"
-        },
-        {
-            "icon": "faTiktok",
-            "nombre": "Tiktok",
-            "url": "https://tiktok.com",
-            "render": "no"
-        },
-        {
-            "icon": "faTelegram",
-            "nombre": "Telegram",
-            "url": "https://telegram.com",
-            "render": "no"
-        },
-        {
-            "icon": "faSpotify",
-            "nombre": "Spotify",
-            "url": "https://spotify.com",
-            "render": "no"
-        },
-        {
-            "icon": "faSoundcloud",
-            "nombre": "Soundcloud",
-            "url": "https://soundcloud.com",
-            "render": "no"
-        },
-        {
-            "icon": "faGithub",
-            "nombre": "Github",
-            "url": "https://github.com",
-            "render": "no"
-        },
-        {
-            "icon": "faTwitch",
-            "nombre": "Twitch",
-            "url": "https://twitch.com",
-            "render": "no"
-          }
+      "icon": "faFacebook",
+        "iconImg": "./facebook-icon.svg",
+        "nombre": "Facebook",
+        "url": "https://m.facebook.com/people/Panificaci%C3%B3n-MaGopan/100071715284389/",
+        "render": "no"
+      },
+      {
+        "icon": "faTwitter",
+        "iconImg": "",
+        "nombre": "Twitter",
+        "url": "https://twitter.com",
+        "render": "no"
+      },
+      {
+        "icon": "faLinkedin",
+        "nombre": "Linkedin",
+        "url": "https://www.linkedin.com/company/rappid-tech/?viewAsMember=true",
+        "render": "si"
+      },
+      {
+        "icon": "faGlobe",
+        "iconImg": "",
+        "nombre": "Youtube",
+        "url": "https://www.rappidtech.com/",
+        "render": "si"
+      },
+      {
+          "icon": "faPinterest",
+          "nombre": "Pinterest",
+          "url": "https://pinterest.com",
+          "render": "no"
+      },
+      {
+          "icon": "faSnapchat",
+          "nombre": "Snapchat",
+          "url": "https://snapchat.com",
+          "render": "no"
+      },
+      {
+          "icon": "faTiktok",
+          "nombre": "Tiktok",
+          "url": "https://tiktok.com",
+          "render": "no"
+      },
+      {
+          "icon": "faTelegram",
+          "nombre": "Telegram",
+          "url": "https://telegram.com",
+          "render": "no"
+      },
+      {
+          "icon": "faSpotify",
+          "nombre": "Spotify",
+          "url": "https://spotify.com",
+          "render": "no"
+      },
+      {
+          "icon": "faSoundcloud",
+          "nombre": "Soundcloud",
+          "url": "https://soundcloud.com",
+          "render": "no"
+      },
+      {
+          "icon": "faGithub",
+          "nombre": "Github",
+          "url": "https://github.com",
+          "render": "no"
+      },
+      {
+          "icon": "faTwitch",
+          "nombre": "Twitch",
+          "url": "https://twitch.com",
+          "render": "no"
+        }
         ],
         "enlaces": [
       { 
         "icon": "faGlobe",
         "iconImg": "",
-        "nombre": "Sitio Web Proximamente",
-        "url": "https://www.magopan.com/",
+        "nombre": "Visita nuestra Web",
+        "url": "https://www.rappidtech.com/",
         "render": "si"
       },
       { 
         "icon": "faWhatsapp",
         "iconImg": "",
-        "nombre": "Whatsapp",
-        "url": "https://wa.me/5493816503152?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
+        "nombre": "WhatsApp",
+        "url": "https://wa.me/5493814094843?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
         "render": "si"
       },
       { 
         "icon": "faInstagram",
         "iconImg": "",
         "nombre": "Instagram",
-        "url": "https://instagram.com/panificacionmagopan?igshid=NzZlODBkYWE4Ng==",
+        "url": "https://www.instagram.com/rappidtech/",
         "render": "si"
       },
       { 
@@ -125,28 +125,28 @@
         "iconImg": "./facebook-icon.svg",
         "nombre": "Facebook",
         "url": "https://m.facebook.com/people/Panificaci%C3%B3n-MaGopan/100071715284389/",
-        "render": "si"
+        "render": "no"
       },
       { 
         "icon": "faPedidosYa",
         "iconImg": "./pedidos-ya.svg",
         "nombre": "Pedidos Ya! SM Tucumán",
         "url": "https://www.pedidosya.com.ar/restaurantes/san-miguel-de-tucuman/magopan-607d3071-805f-41fc-91a8-c34601b27931-menu",
-        "render": "si"
+        "render": "no"
       },
       { 
         "icon": "faPedidosYa",
         "iconImg": "./pedidos-ya.svg",
         "nombre": "Pedidos Ya! Yerba Buena",
         "url": "https://www.pedidosya.com.ar/restaurantes/yerba-buena/magopan-yerba-buena-60b80050-0b5b-4083-a74c-175e415e39fb-menu",
-        "render": "si"
+        "render": "no"
       },
       { 
-        "icon": "",
+        "icon": "faLinkedin",
         "iconImg": "",
-        "nombre": "Enlace 7",
-        "url": "https://enlace7.com",
-        "render": "no"
+        "nombre": "Linkedin",
+        "url": "https://www.linkedin.com/company/rappid-tech/?viewAsMember=true",
+        "render": "si"
       },
       { 
         "icon": "",

@@ -20,7 +20,10 @@ const height = footer.height
 
 
 const AppContainer = styled.div`
-    background-color: ${fondoApp};
+    background-image: ${fondoApp};
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 `
 
 const FooterContainer = styled.footer`
