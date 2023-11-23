@@ -100,6 +100,14 @@
         ],
         "enlaces": [
       { 
+        "icon": "faFacebook",
+        "iconImg": "",
+        "nombre": " Pedí aquí tu Página de Links!",
+        "url": "https://rappidtech.com/links/",
+        "render": "si",
+        "newColor": "si"
+      },
+      { 
         "icon": "faGlobe",
         "iconImg": "",
         "nombre": "Visita nuestra Web",

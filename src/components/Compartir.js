@@ -25,10 +25,10 @@ const Boton = styled.button`
     padding: 0px;
     border-radius: 50%;
     border: none;
-    background-color: white;
+    background-color: #d9d9d9;
     width: 40px;
     height: 40px;
-    color: #fff;
+    color: #d9d9d9;
 
         &:hover {
             cursor: pointer;

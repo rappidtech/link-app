@@ -20,7 +20,7 @@
       "colorTexto": "#D9D9D9", 
       "colorFondo": "rgba(255, 115, 0, 0)",
       "colorHover": "rgba(255, 255, 255, 0.2)",
-      "borderRadius": "20px",
+      "borderRadius": "10px",
       "colorIcon": "rgba(255, 115, 0, 0)",
       "fontWeigth": "600",
       "fontSize": "1.5rem",
