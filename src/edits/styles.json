@@ -1,0 +1,40 @@
+{
+    "general": {
+      "backgroundColor": "#fff"
+    },
+    "logo": {
+        "logoSize": "130px"
+    },
+    "titulo": {
+      "colorTexto": "rgb(255, 115, 0)",
+      "fontSize": "1rem",
+      "textTransform": "uppercase"
+    },
+    "subtitulo": {
+      "colorTexto": "rgb(120, 211, 46)",
+      "fontSize": "1rem",
+      "textTransform": "none"
+    },
+    "enlaces": {
+      "colorTexto": "#ffffff", 
+      "colorFondo": "rgb(255, 115, 0)",
+      "colorHover": "rgb(120, 211, 46)",
+      "borderRadius": "20px",
+      "colorIcon": "#fff",
+      "fontWeigth": "600",
+      "fontSize": "1.5rem",
+      "textTransform": "uppercase",
+      "scaleLink": "scale(1.05)"
+    },
+    "redes": {
+        "colorPrincipal": "rgb(120, 211, 46)",
+        "colorHover": "rgba(113, 199, 43, 0.842)"
+    },
+    "footer": {
+      "colorTexto": "#ffffff",
+      "backgroundColor": "#343a40",
+      "height": "20vh"
+    }
+  }
+  
+  
