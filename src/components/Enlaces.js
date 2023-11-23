@@ -16,6 +16,8 @@ const fontSize = enlaces.fontSize;
 const fontWeigth = enlaces.fontWeigth;
 const textTransform = enlaces.textTransform;
 const scaleLink = enlaces.scaleLink;
+const margin = enlaces.margin;
+const padding = enlaces.padding;
 
 const EnlacesListItem = styled.li
 `
@@ -27,8 +29,8 @@ const EnlacesListItem = styled.li
 const Enlace = styled.a`
 	flex-grow: 1;
 	width: 25vw;
-	padding: 15px 20px;
-	margin: 8px 0;
+	padding: ${padding};
+	margin: ${margin};
 	background-color: ${colorFondo};
 	color: ${colorTexto};
 	font-weight: ${fontWeigth};

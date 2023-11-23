@@ -24,11 +24,15 @@
       "fontWeigth": "600",
       "fontSize": "1.5rem",
       "textTransform": "uppercase",
-      "scaleLink": "scale(1.05)"
+      "scaleLink": "scale(1.05)",
+      "margin": "6px 0",
+      "padding": "12px 20px"
     },
     "redes": {
         "colorPrincipal": "rgb(120, 211, 46)",
-        "colorHover": "rgba(113, 199, 43, 0.842)"
+        "colorHover": "rgba(113, 199, 43, 0.842)",
+        "margin": "-5px",
+        "padding": "0"
     },
     "footer": {
       "colorTexto": "#ffffff",

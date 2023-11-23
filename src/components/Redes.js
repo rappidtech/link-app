@@ -7,9 +7,12 @@ import styles from '../edits/styles.json';
 const { redes } = styles;
 const colorPrincipal = redes.colorPrincipal;
 const colorHover = redes.colorHover;
+const padding = redes.padding;
+const margin = redes.margin;
 
 const UlSocial = styled.ul`
-    padding: 0;
+    margin: ${margin};
+    padding: ${padding};
     display: flex;
     justify-content: center;
 `
