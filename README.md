@@ -12,7 +12,7 @@ npm start
 ```
 Esto abrira la aplicacion en http://localhost:3000/
 
-### Personalizaciones
+## Personalizaciones
 Para personalizar la app, se debe ir a la carpeta link-app/src/edits
 Ahí hay 2 archivos data.json y styles.json
 Para modificar una propiedad en data.json, se cambia el nombre de la propiedad que corresponda
@@ -76,7 +76,7 @@ En el caso de styles.json, se deben cambiar los estilos CSS de la app, de acuerd
       "padding": "12px 20px"
     },
 ```
-#### Modificaciones de archivos
+## Modificaciones de archivos
 Se debe modificar el index.html cambiando el titulo de la App y la descripcion
 ```
 <head>
@@ -110,10 +110,29 @@ Finalmente modificar manifest.json en la parte de "name" y "short_name"
   "icons": [
     {
 ```
-##### Compilacion y subir la pagina
+## Creacion archivo .env
+Si no esta creado, es necesario crear dentro de la carpeta "src" un archivo .env con el siguiente contenido
+```
+PUBLIC_URL="http://rappidtech.com/links/test"
+```
+El link utilizado es el de la direccion de la nueva web
+
+## Compilacion y subir la pagina
 Una vez finalizado todos los cambios se debe compilar el proyecto. Para hacerlo en la terminal se escribe
 ```
 npm run build
 ```
 Con esto se creara una carpeta "build" en el directorio del proyecto con los archivos necesarios para subirlos
+Luego dentro de la plataforma hostinger, se debe seleccionar la pagina en la que se quiere trabajar (rappidtech.com), ir al administrador de archivos y dirigirse a la carpeta links
+Alli crear una nueva carpeta que tendra la direccion del nuevo sitio, por ejemplo: rappidtech.com/links/nueva-carpeta. Cabe aclarar que ese nombre debe coincidir con el que se guardo en los archivos de la app (package.json)
+## Crear nuevo branch y subir el repositorio
+Finalmente, de manera de almacenar el contenido del nuevo sitio web creado, se debe subir el repositorio como un nuevo branch, con el fin de guardar toda la informacion como copia de seguridad. Para ello se deben seguir los pasos:
+```
+git checkout -b nombre-del-nuevo-branch
+```
+
+```
+git push -u origin nombre-del-nuevo-branch
+```
+Con esto quedara subido el nuevo repositorio y sera de facil acceso
 
