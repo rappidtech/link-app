@@ -1,43 +1,47 @@
 {
     "general": {
-      "backgroundColor": "#fff"
+      "backgroundColor": "#5D0810"
     },
     "logo": {
-        "logoSize": "130px"
+        "logoSize": "25vh"
     },
     "titulo": {
-      "colorTexto": "rgb(255, 115, 0)",
-      "fontSize": "1rem",
-      "textTransform": "uppercase"
-    },
-    "subtitulo": {
-      "colorTexto": "rgb(120, 211, 46)",
+      "colorTexto": "#f9f9f9",
       "fontSize": "1rem",
       "textTransform": "none"
     },
+    "subtitulo": {
+      "colorTexto": "#f9f9f9",
+      "fontSize": "1rem",
+      "fontWeigth": "regular",
+      "textTransform": "none"
+    },
     "enlaces": {
-      "colorTexto": "#ffffff", 
-      "colorFondo": "rgb(255, 115, 0)",
-      "colorHover": "rgb(120, 211, 46)",
+      "colorTexto": "#f9f9f9", 
+      "colorFondo": "rgba(255, 115, 0, 0)",
+      "colorHover": "#8c3a3b",
       "borderRadius": "20px",
-      "colorIcon": "#fff",
+      "colorIcon": "#f9f9f9",
       "fontWeigth": "600",
       "fontSize": "1.5rem",
-      "textTransform": "uppercase",
+      "textTransform": "none",
       "scaleLink": "scale(1.05)",
       "margin": "6px 0",
-      "padding": "12px 20px"
+      "padding": "12px 20px",
+      "border": "1.5px solid #f9f9f9"     
     },
     "redes": {
-        "colorPrincipal": "rgb(120, 211, 46)",
-        "colorHover": "rgba(113, 199, 43, 0.842)",
+        "colorPrincipal": "rgba(120, 211, 46, 0)",
+        "colorHover": "rgba(113, 199, 43, 0)",
         "margin": "-5px",
         "padding": "0"
     },
     "footer": {
-      "colorTexto": "#ffffff",
-      "backgroundColor": "#343a40",
+      "colorTexto": "#f9f9f9",
+      "backgroundColor": "#5D0810",
       "height": "20vh"
+    },
+    "compartir": {
     }
   }
   

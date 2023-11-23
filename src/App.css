@@ -16,9 +16,15 @@
   overflow: hidden;
 }
 
-
 .powered-by {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon-delete {
+  color: rgba(0, 0, 0, 0);
+  fill: rgba(0, 0, 0, 0);
+  stroke: rgba(0, 0, 0, 0);
+  visibility: hidden;
 }

@@ -52,8 +52,13 @@ function Redes({ redes }) {
                     {
                         return (
                             <LiSocial>
-                                <ASocial href={red.url}>
-                                    <IconSocial icon={iconMap[red.icon]} />
+                                <ASocial target='blank' href={red.url}>
+                                    {red.iconImg ? (
+                                    <img src={red.iconImg} alt={red.nombre} style={{ marginRight: '10px' }} />
+                                    ) : (
+                                        <IconSocial icon={iconMap[red.icon]} />
+                                    )}
+                                    {/* <IconSocial icon={iconMap[red.icon]} /> */}
                                 </ASocial>
                             </LiSocial>
                         )

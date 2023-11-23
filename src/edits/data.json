@@ -1,41 +1,47 @@
 {
-    "logo": "./favicon.jpg",
-    "titulo": "Healthy Food",
-    "subtitulo": "@healthyfood",
+    "logo": "./Logo-MaGopan.svg",
+    "titulo": "Panificación MaGopan",
+    "subtitulo": "Nuestras sucursales:\nFederico Rossi 623, Yerba Buena | Tel: 3812621817\nCoronel Zeleya 264 SMT | Tel: 3814502774",
     "descripcion": "Descripción de la página",
     "poweredBy": "RappidTech",
-    "enlacePrincipal": "https://rappidtech.com",
-    "enlaceRappid": "https://rappidtech.com",
+    "enlacePrincipal": "https://www.magopan.com/links",
+    "enlacePrinCorto": "magopan.com/links",
+    "enlaceRappid": "https://rappidtech.com/links/rappidtech",
     "redes": [
-        {
-            "icon": "faFacebook",
+      {
+          "icon": "faWhatsapp",
+          "iconImg": "",
+          "nombre": "Whatsapp",
+          "url": "https://api.whatsapp.com/send/?phone=5493816503152&text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s+sobre+sus+productos&type=phone_number&app_absent=0",
+          "render": "si"
+      },
+      {
+          "icon": "faInstagram",
+          "iconImg": "",
+          "nombre": "Instagram",
+          "url": "https://www.instagram.com/panificacionmagopan/",
+          "render": "si"
+      },
+      {
+        "icon": "faFacebook",
+            "iconImg": "./facebook-icon.svg",
             "nombre": "Facebook",
-            "url": "https://facebook.com",
-            "render": "si"
-        },
-        {
-            "icon": "faInstagram",
-            "nombre": "Instagram",
-            "url": "https://instagram.com",
+            "url": "https://m.facebook.com/people/Panificaci%C3%B3n-MaGopan/100071715284389/",
             "render": "si"
         },
         {
             "icon": "faTwitter",
+            "iconImg": "",
             "nombre": "Twitter",
             "url": "https://twitter.com",
-            "render": "si"
+            "render": "no"
         },
         {
             "icon": "faYoutube",
+            "iconImg": "",
             "nombre": "Youtube",
             "url": "https://youtube.com",
-            "render": "si"
-        },
-        {
-            "icon": "faWhatsapp",
-            "nombre": "Whatsapp",
-            "url": "https://whatsapp.com",
-            "render": "si"
+            "render": "no"
         },
         {
             "icon": "faLinkedin",
@@ -94,61 +100,71 @@
     ],
     "enlaces": [
       { 
-        "icon": "faUtensils",
-        "nombre": "Menu",
-        "url": "https://enlace1.com",
-        "render": "si"
-      },
-      { 
-        "icon": "faShoppingCart",
-        "nombre": "Order Here",
-        "url": "https://enlace2.com",
-        "render": "si"
-      },
-      { 
-        "icon": "faYoutube",
-        "nombre": "My Youtube Channel",
-        "url": "https://enlace3.com",
-        "render": "si"
-      },
-      { 
-        "icon": "faDownload",
-        "nombre": "Download my ebook",
-        "url": "https://rappidtech.com",
-        "render": "si"
-      },
-      { 
         "icon": "faWhatsapp",
+        "iconImg": "",
         "nombre": "Whatsapp",
-        "url": "https://enlace5.com",
+        "url": "https://wa.me/5493816503152?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
+        "render": "si"
+      },
+      { 
+        "icon": "faInstagram",
+        "iconImg": "",
+        "nombre": "Instagram",
+        "url": "https://instagram.com/panificacionmagopan?igshid=NzZlODBkYWE4Ng==",
+        "render": "si"
+      },
+      { 
+        "icon": "faFacebook",
+        "iconImg": "./facebook-icon.svg",
+        "nombre": "Facebook",
+        "url": "https://m.facebook.com/people/Panificaci%C3%B3n-MaGopan/100071715284389/",
+        "render": "si"
+      },
+      { 
+        "icon": "faPedidosYa",
+        "iconImg": "./pedidos-ya.svg",
+        "nombre": "Pedidos Ya! SM Tucumán",
+        "url": "https://www.pedidosya.com.ar/restaurantes/san-miguel-de-tucuman/magopan-607d3071-805f-41fc-91a8-c34601b27931-menu",
+        "render": "si"
+      },
+      { 
+        "icon": "faPedidosYa",
+        "iconImg": "./pedidos-ya.svg",
+        "nombre": "Pedidos Ya! Yerba Buena",
+        "url": "https://www.pedidosya.com.ar/restaurantes/yerba-buena/magopan-yerba-buena-60b80050-0b5b-4083-a74c-175e415e39fb-menu",
         "render": "si"
       },
       { 
         "icon": "",
+        "iconImg": "",
         "nombre": "Enlace 6",
         "url": "https://enlace6.com",
         "render": "no"
       },
       { 
         "icon": "",
+        "iconImg": "",
         "nombre": "Enlace 7",
         "url": "https://enlace7.com",
         "render": "no"
       },
       { 
         "icon": "",
+        "iconImg": "",
         "nombre": "Enlace 8",
         "url": "https://enlace8.com",
         "render": "no"
       },
       { 
         "icon": "",
+        "iconImg": "",
         "nombre": "Enlace 9",
         "url": "https://enlace9.com",
         "render": "no"
       },
       { 
         "icon": "",
+        "iconImg": "",
         "nombre": "Enlace 10",
         "url": "https://enlace10.com",
         "render": "no"

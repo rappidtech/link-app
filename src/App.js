@@ -5,9 +5,13 @@ import Footer from './components/Footer.js';
 import Subtitulo from './components/Subtitulo.js';
 import Titulo from './components/Titulo.js';
 import Redes from './components/Redes.js';
+import BotonCompartir from './components/Compartir.js';
+import TarjetaCompartir from './components/MenuCompartir.js';
 import data from './edits/data.json';
 import styled from 'styled-components';
 import styles from './edits/styles.json';
+import { useState } from "react";
+
 
 const { general, footer } = styles;
 const fondoApp = general.backgroundColor;
@@ -27,25 +31,38 @@ const FooterContainer = styled.footer`
     height: ${height};
     align-items: center;
     justify-content: center;
-
 `
 
 function App() {
+    
+    const [mostrarTarjeta, setMostrarTarjeta] = useState(false);
+
+    const toggleTarjeta = () => {
+        setMostrarTarjeta(!mostrarTarjeta);
+    };
+
     return (
-        <AppContainer className="App">
-            <header className="App-header">
-                <Logo src={data.logo} link={data.enlacePrincipal}/>
-                <Titulo text={data.titulo}/>
-                <Subtitulo text={data.subtitulo}/>
-            </header>
-            <main>
-                <Enlaces links={data.enlaces} />  
-            </main>
-            <FooterContainer>
-                <Redes redes={data.redes} />
-                <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>
-            </FooterContainer>
-        </AppContainer> 
+        <>
+            <TarjetaCompartir mostrar={mostrarTarjeta} onCerrar={toggleTarjeta} />
+            <AppContainer className="App">
+                <div>
+                    <BotonCompartir onToggle={toggleTarjeta} />
+                </div>
+                
+                <header className="App-header">
+                    <Logo src={data.logo} link={data.enlacePrincipal}/>
+                    <Titulo text={data.titulo}/>
+                    <Subtitulo text={data.subtitulo}/>
+                </header>
+                <main>
+                    <Enlaces links={data.enlaces} />  
+                </main>
+                <FooterContainer>
+                    <Redes redes={data.redes} />
+                    <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>
+                </FooterContainer>
+            </AppContainer> 
+        </>
     );
 }  
 

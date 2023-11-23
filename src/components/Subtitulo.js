@@ -6,6 +6,7 @@ const { subtitulo, general } = styles;
 const colorTexto = subtitulo.colorTexto;
 const fontSize = subtitulo.fontSize;
 const textTransform = subtitulo.textTransform;
+const fontWeigth = subtitulo.fontWeigth;
 
 const SubtituloContainer = styled.div`
     color: ${colorTexto};
@@ -13,10 +14,21 @@ const SubtituloContainer = styled.div`
     text-transform: ${textTransform};
 `
 
+const P = styled.p`
+    font-weight: ${fontWeigth};
+`
+
 function Subtitulo({ text }) {
+    const lineas = text.split('\n').map((linea, index, array) => (
+        <React.Fragment key={index}>
+          {linea}
+          {index < array.length - 1 && <br />}
+        </React.Fragment>
+      ));
+
     return (
         <SubtituloContainer>
-            <h4>{text}</h4>
+            <P>{lineas}</P>
         </SubtituloContainer>
     );
 }

@@ -18,6 +18,7 @@ const textTransform = enlaces.textTransform;
 const scaleLink = enlaces.scaleLink;
 const margin = enlaces.margin;
 const padding = enlaces.padding;
+const border = enlaces.border;
 
 const EnlacesListItem = styled.li
 `
@@ -40,13 +41,14 @@ const Enlace = styled.a`
 	align-items: center;
 	justify-content: space-between;
 	border-radius: ${borderRadius};
+	border: ${border};	
 	text-transform: ${textTransform};
 	transform: scale(1);
   	transition: transform 0.3s ease;
 
 	&:hover {
 		background-color: ${colorHover};
-		transform: ${scaleLink};	
+		transform: ${scaleLink};
 	}
 
 	@media (max-width: 768px) {
@@ -56,13 +58,8 @@ const Enlace = styled.a`
 
 const Icono = styled(FontAwesomeIcon)`
 	margin-right: 10px;
-	// flex-shrink: 0;
 	color: ${colorIcon};
 	font-size: ${fontSize};
-
-	&.icon-delete {
-		color: rgba(255, 0, 0, 0);
-	}
 `;
 
 function generateLi(links) {
@@ -70,10 +67,18 @@ function generateLi(links) {
       <>
         {links.filter(link => link.render === 'si').map((link, index) => (
           <EnlacesListItem key={index}>
-            <Enlace href={link.url}>
-              <Icono className='icon-link' icon={iconMap[link.icon]} />
-              {link.nombre}
-              <Icono className='icon-delete' icon={iconMap[link.icon]} />
+            <Enlace target='blank' href={link.url}>
+				{link.iconImg ? (
+				<img src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
+				) : (
+					<Icono className='icon-link' icon={iconMap[link.icon]} />
+				)}
+				{link.nombre}
+				{link.iconImg ? (
+				<img className='icon-delete' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
+				) : (
+					<Icono style="" className='icon-delete' icon={iconMap[link.icon]} />
+				)}
             </Enlace>
           </EnlacesListItem>
         ))}
