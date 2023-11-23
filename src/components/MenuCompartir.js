@@ -75,7 +75,7 @@ const A = styled.a`
 `
 
 const Enlace = styled.a`
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     margin-top: 20px;
     border: 1px solid #ccc;
@@ -84,7 +84,7 @@ const Enlace = styled.a`
     width: 80%;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: center;
     
     &:hover {
         cursor: pointer;
@@ -105,7 +105,7 @@ const Center = styled.div`
 `
 
 const P = styled.a`
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     margin-top: 20px;
     border: 1px solid #ccc;

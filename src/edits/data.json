@@ -96,9 +96,16 @@
             "nombre": "Twitch",
             "url": "https://twitch.com",
             "render": "no"
-        }
-    ],
-    "enlaces": [
+          }
+        ],
+        "enlaces": [
+      { 
+        "icon": "faGlobe",
+        "iconImg": "",
+        "nombre": "Sitio Web Proximamente",
+        "url": "https://www.magopan.com/",
+        "render": "si"
+      },
       { 
         "icon": "faWhatsapp",
         "iconImg": "",
@@ -133,13 +140,6 @@
         "nombre": "Pedidos Ya! Yerba Buena",
         "url": "https://www.pedidosya.com.ar/restaurantes/yerba-buena/magopan-yerba-buena-60b80050-0b5b-4083-a74c-175e415e39fb-menu",
         "render": "si"
-      },
-      { 
-        "icon": "",
-        "iconImg": "",
-        "nombre": "Enlace 6",
-        "url": "https://enlace6.com",
-        "render": "no"
       },
       { 
         "icon": "",

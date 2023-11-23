@@ -4,6 +4,9 @@ import {
     faUtensils,
     faShoppingCart,
     faDownload,
+    faGlobe,
+    faDesktop,
+    faLink,
 } from '@fortawesome/free-solid-svg-icons';
 
 import {
@@ -24,6 +27,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
   
 const iconMap = {
+    'faGlobe': faGlobe,
+    'faDesktop': faDesktop,
+    'faLink': faLink,
     'faFacebook' : faFacebook,
     'faInstagram' : faInstagram,
     'faTwitter' : faTwitter,
