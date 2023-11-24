@@ -1,6 +1,6 @@
 {
     "general": {
-      "backgroundColor": "linear-gradient(to bottom, #EB4174, #FFE3E3);"
+      "backgroundColor": "linear-gradient(to bottom, #6A85B6, #BAC8E0);"
     },
     "logo": {
         "logoSize": "16vh"
@@ -24,8 +24,8 @@
     },
     "enlaces": {
       "colorTexto": "#1F1F29", 
-      "colorFondo": "#F15C89",
-      "colorHover": "#EB4174",
+      "colorFondo": "#586F98",
+      "colorHover": "#7B9BCA",
       "borderRadius": "10px",
       "colorIcon": "#1F1F29",
       "fontWeigth": "600",
@@ -34,7 +34,7 @@
       "scaleLink": "scale(1.05)",
       "margin": "6px 0",
       "padding": "12px 20px",
-      "border": "1.5px solid #F15C89"     
+      "border": "0px solid #7B9BCA"     
     },
     "redes": {
         "colorPrincipal": "rgba(120, 211, 46, 0)",
