@@ -61,13 +61,13 @@ function App() {
                     <Logo src={data.logo} link={data.enlacePrincipal}/>
                     <Titulo text={data.titulo}/>
                     <Subtitulo text={data.subtitulo}/>
-                    <Redes redes={data.redes} />
                 </header>
                 <main>
                     <Descripcion text={data.descripcion}></Descripcion>
                     <Enlaces links={data.enlaces} />  
                 </main>
                 <FooterContainer>
+                    <Redes redes={data.redes} />
                     <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>
                 </FooterContainer>
             </AppContainer> 

@@ -1,10 +1,10 @@
 {
     "logo": "./img/icons/logo.png",
-    "titulo": "Agustina Prado",
-    "subtitulo": "UX & UI Design | Frontend Developer", 
-    "descripcion": "Amante de la música y el arte",
+    "titulo": "Body Intimates",
+    "subtitulo": "Lencería y Bikinis \n Mayorista y Minorista", 
+    "descripcion": "Somos Fabricantes",
     "poweredBy": "RappidTech",
-    "enlacePrincipal": "https://rappidtech.com/links/demo2",
+    "enlacePrincipal": "https://rappidtech.com/links/demo3",
     "enlacePrinCorto": "rappidtech.com/links",
     "enlaceRappid": "https://rappidtech.com/links",
     "redes": [
@@ -102,14 +102,14 @@
       { 
         "icon": "faInstagram",
         "iconImg": "./img/svg/upwork.svg",
-        "nombre": "Fiverr",
+        "nombre": "Whatsapp",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
         "icon": "faFacebook",
         "iconImg": "./img/svg/fiverr.svg",
-        "nombre": "Upwork",
+        "nombre": "Catálogo",
         "url": "https://rappidtech.com/links/",
         "render": "si",
         "newColor": "no"
@@ -117,7 +117,7 @@
       { 
         "icon": "faFacebook",
         "iconImg": "./img/svg/behance.svg",
-        "nombre": "Behance",
+        "nombre": "Envíos",
         "url": "https://rappidtech.com/links",
         "render": "si",
         "newColor": "no"
@@ -125,14 +125,14 @@
       { 
         "icon": "faGlobe",
         "iconImg": "./img/svg/dribbble.svg",
-        "nombre": "Dribbble",
+        "nombre": "Nuestro taller",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
         "icon": "faGithub",
         "iconImg": "./img/svg/github.svg",
-        "nombre": "GitHub",
+        "nombre": "Tutorial de página web",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },

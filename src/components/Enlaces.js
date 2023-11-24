@@ -20,6 +20,7 @@ const scaleLink = enlaces.scaleLink;
 const margin = enlaces.margin;
 const padding = enlaces.padding;
 const border = enlaces.border;
+const colorActive = enlaces.colorActive;
 
 const EnlacesListItem = styled.li
 `
@@ -53,6 +54,9 @@ const Enlace = styled.a`
 		transform: ${scaleLink};
 	}
 
+	&:active {
+		background-color: ${colorActive};
+	}
 	@media (max-width: 768px) {
 		width: 60vw;
 	}
@@ -71,7 +75,7 @@ function generateLi(links) {
 			<EnlacesListItem key={index}>
 				<Enlace target='blank' href={link.url} >
 					{link.iconImg ? (
-					<img src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
+					<img className='icon-delete' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
 					) : (
 						<Icono className='icon-link' icon={iconMap[link.icon]} />
 					)}
