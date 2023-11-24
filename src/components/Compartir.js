@@ -2,6 +2,8 @@ import React from "react";
 import styled from 'styled-components';
 import styles from '../edits/styles.json';
 
+const colorIcon = styles.compartir.colorIcon;
+const fondoIcon = styles.compartir.fondoIcon;
 
 const Contenedor = styled.div`
     display: flex;
@@ -25,10 +27,10 @@ const Boton = styled.button`
     padding: 0px;
     border-radius: 50%;
     border: none;
-    background-color: #d9d9d9;
+    background-color: ${fondoIcon};
     width: 40px;
     height: 40px;
-    color: #d9d9d9;
+    color: ${colorIcon};
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
 
         &:hover {
@@ -45,7 +47,7 @@ function BotonCompartir({ onToggle  }) {
     <>
     <Contenedor>
         <Boton onClick={onToggle}>
-            <Img src="./share-icon.svg" alt="Compartir" />
+            <Img src="./img/svg/share-icon.svg" alt="Compartir" />
         </Boton>
     </Contenedor>
     </>

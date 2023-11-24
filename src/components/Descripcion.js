@@ -26,11 +26,18 @@ function Descripcion({ text }) {
         </React.Fragment>
       ));
 
-    return (
-        <DescripcionContainer>
-            <P>{lineas}</P>
-        </DescripcionContainer>
-    );
+    if (text !== "" ) {
+        return (
+            
+            <DescripcionContainer>
+                <P>{lineas}</P>
+            </DescripcionContainer>
+        );
+    } else {
+        return null;
+    }   
+
+
 }
 
 export default Descripcion;

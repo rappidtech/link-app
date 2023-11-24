@@ -1,10 +1,10 @@
 {
     "logo": "./img/icons/logo.png",
-    "titulo": "Body Intimates",
-    "subtitulo": "Lencería y Bikinis \n Mayorista y Minorista", 
-    "descripcion": "Somos Fabricantes",
+    "titulo": "MICAELA GONZALES",
+    "subtitulo": "Arquitecta & Diseñadora de Interiores", 
+    "descripcion": "",
     "poweredBy": "RappidTech",
-    "enlacePrincipal": "https://rappidtech.com/links/demo3",
+    "enlacePrincipal": "https://rappidtech.com/links/demo6",
     "enlacePrinCorto": "rappidtech.com/links",
     "enlaceRappid": "https://rappidtech.com/links",
     "redes": [
@@ -102,14 +102,14 @@
       { 
         "icon": "faInstagram",
         "iconImg": "./img/svg/upwork.svg",
-        "nombre": "Whatsapp",
+        "nombre": "Portfolio",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
         "icon": "faFacebook",
         "iconImg": "./img/svg/fiverr.svg",
-        "nombre": "Catálogo",
+        "nombre": "Página Web",
         "url": "https://rappidtech.com/links/",
         "render": "si",
         "newColor": "no"
@@ -117,7 +117,7 @@
       { 
         "icon": "faFacebook",
         "iconImg": "./img/svg/behance.svg",
-        "nombre": "Envíos",
+        "nombre": "Instagram",
         "url": "https://rappidtech.com/links",
         "render": "si",
         "newColor": "no"
@@ -125,14 +125,14 @@
       { 
         "icon": "faGlobe",
         "iconImg": "./img/svg/dribbble.svg",
-        "nombre": "Nuestro taller",
+        "nombre": "LinkedIn",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
         "icon": "faGithub",
         "iconImg": "./img/svg/github.svg",
-        "nombre": "Tutorial de página web",
+        "nombre": "TikTok",
         "url": "https://rappidtech.com/links",
         "render": "si"
       },

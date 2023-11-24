@@ -1,6 +1,6 @@
 {
     "general": {
-      "backgroundColor": "linear-gradient(to right, #C193C5, #7BC6CC);"
+      "backgroundColor": "url(./img/icons/Fondo.png)"
     },
     "logo": {
         "logoSize": "14vh"
@@ -23,11 +23,11 @@
       "textTransform": "none"
     },
     "enlaces": {
-      "colorTexto": "#1F1F29", 
-      "colorFondo": "",
-      "colorHover": "#C193C5",
-      "colorActive": "#A569A5",
-      "borderRadius": "10px",
+      "colorTexto": "#F9F9F9", 
+      "colorFondo": "#D1658C",
+      "colorHover": "#DC7CA3",
+      "colorActive": "#B25470",
+      "borderRadius": "25px",
       "colorIcon": "#1F1F29",
       "fontWeigth": "600",
       "fontSize": "1.5rem",
@@ -35,7 +35,7 @@
       "scaleLink": "scale(1.05)",
       "margin": "3px 0",
       "padding": "9px 20px",
-      "border": "1px solid #1F1F29"     
+      "border": "1px solid #d9d9d9"     
     },
     "redes": {
         "colorPrincipal": "rgba(120, 211, 46, 0)",
@@ -44,11 +44,13 @@
         "padding": "0"
     },
     "footer": {
-      "colorTexto": "#1F1F29",
+      "colorTexto": "#F9F9F9",
       "backgroundColor": "",
       "height": "20vh"
     },
     "compartir": {
+      "fondoIcon": "#D1658C",
+      "colorIcon":"#F9F9F9"
     }
   }
   

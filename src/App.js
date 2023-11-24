@@ -67,11 +67,11 @@ function App() {
                     <Subtitulo text={data.subtitulo}/>
                     <Descripcion text={data.descripcion}></Descripcion>
                 </header>
+                    <Redes redes={data.redes} />
                 <Main>
                     <Enlaces links={data.enlaces} />  
                 </Main>
                 <FooterContainer>
-                    <Redes redes={data.redes} />
                     <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>
                 </FooterContainer>
             </AppContainer> 
