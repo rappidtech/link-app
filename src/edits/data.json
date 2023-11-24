@@ -1,26 +1,39 @@
 {
-    "logo": "./icon-rappid.svg",
-    "titulo": "RAppID Tech",
-    "subtitulo": "Responsive Applications and Innovative Design\n\nUX & UI Design |  Web & Mobile Apps", 
-    "descripcion": "Descripción de la página",
+    "logo": "./img/icons/logo.png",
+    "titulo": "Agustina Prado",
+    "subtitulo": "UX & UI Design | Frontend Developer", 
+    "descripcion": "Amante de la música y el arte",
     "poweredBy": "RappidTech",
-    "enlacePrincipal": "https://rappidtech.com/links/rappidtech",
-    "enlacePrinCorto": "rappidtech.com/links/rappidtech",
-    "enlaceRappid": "https://rappidtech.com/links/rappidtech",
+    "enlacePrincipal": "https://rappidtech.com/links/demo1",
+    "enlacePrinCorto": "rappidtech.com/links",
+    "enlaceRappid": "https://rappidtech.com/links",
     "redes": [
+      {
+        "icon": "faInstagram",
+        "iconImg": "",
+        "nombre": "Instagram",
+        "url": "https://rappidtech.com/links",
+        "render": "si"
+      },
+      {
+          "icon": "faTiktok",
+          "nombre": "Tiktok",
+          "url": "https://rappidtech.com/links",
+          "render": "si"
+      },
+      {
+        "icon": "faGlobe",
+        "iconImg": "",
+        "nombre": "Youtube",
+        "url": "https://rappidtech.com/links",
+        "render": "si"
+      },
       {
         "icon": "faWhatsapp",
         "iconImg": "",
         "nombre": "Whatsapp",
         "url": "https://wa.me/5493814094843?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
         "render": "no"
-      },
-      {
-        "icon": "faInstagram",
-        "iconImg": "",
-        "nombre": "Instagram",
-        "url": "https://www.instagram.com/rappidtech/",
-        "render": "si"
       },
       {
       "icon": "faFacebook",
@@ -40,14 +53,7 @@
         "icon": "faLinkedin",
         "nombre": "Linkedin",
         "url": "https://www.linkedin.com/company/rappid-tech/?viewAsMember=true",
-        "render": "si"
-      },
-      {
-        "icon": "faGlobe",
-        "iconImg": "",
-        "nombre": "Youtube",
-        "url": "https://www.rappidtech.com/",
-        "render": "si"
+        "render": "no"
       },
       {
           "icon": "faPinterest",
@@ -59,12 +65,6 @@
           "icon": "faSnapchat",
           "nombre": "Snapchat",
           "url": "https://snapchat.com",
-          "render": "no"
-      },
-      {
-          "icon": "faTiktok",
-          "nombre": "Tiktok",
-          "url": "https://tiktok.com",
           "render": "no"
       },
       {
@@ -100,40 +100,40 @@
         ],
         "enlaces": [
       { 
-        "icon": "faFacebook",
-        "iconImg": "",
-        "nombre": "Pedí aquí tu Página de Links Gratis!",
-        "url": "https://rappidtech.com/links/",
-        "render": "si",
-        "newColor": "si"
+        "icon": "faInstagram",
+        "iconImg": "./img/svg/upwork.svg",
+        "nombre": "Fiverr",
+        "url": "https://rappidtech.com/links",
+        "render": "si"
       },
       { 
         "icon": "faFacebook",
-        "iconImg": "",
-        "nombre": "Conoce todos nuestros servicios",
-        "url": "https://rappidtech.com/landing-page",
+        "iconImg": "./img/svg/fiverr.svg",
+        "nombre": "Upwork",
+        "url": "https://rappidtech.com/links/",
         "render": "si",
-        "newColor": "si"
+        "newColor": "no"
+      },
+      { 
+        "icon": "faFacebook",
+        "iconImg": "./img/svg/behance.svg",
+        "nombre": "Behance",
+        "url": "https://rappidtech.com/links",
+        "render": "si",
+        "newColor": "no"
       },
       { 
         "icon": "faGlobe",
-        "iconImg": "",
-        "nombre": "Visita nuestra Web",
-        "url": "https://www.rappidtech.com/",
+        "iconImg": "./img/svg/dribbble.svg",
+        "nombre": "Dribbble",
+        "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
-        "icon": "faWhatsapp",
-        "iconImg": "",
-        "nombre": "WhatsApp",
-        "url": "https://wa.me/5493814094843?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos",
-        "render": "si"
-      },
-      { 
-        "icon": "faInstagram",
-        "iconImg": "",
-        "nombre": "Instagram",
-        "url": "https://www.instagram.com/rappidtech/",
+        "icon": "faGithub",
+        "iconImg": "./img/svg/github.svg",
+        "nombre": "GitHub",
+        "url": "https://rappidtech.com/links",
         "render": "si"
       },
       { 
@@ -162,7 +162,7 @@
         "iconImg": "",
         "nombre": "Linkedin",
         "url": "https://www.linkedin.com/company/rappid-tech/?viewAsMember=true",
-        "render": "si"
+        "render": "no"
       },
       { 
         "icon": "",

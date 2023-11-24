@@ -136,3 +136,10 @@ git push -u origin nombre-del-nuevo-branch
 ```
 Con esto quedara subido el nuevo repositorio y sera de facil acceso
 
+## Problemas y errores
+Si en algun momento no se visualizan los logs e imagenes, probar con:
+Borrar el contenido en .env en la carpeta src
+Eliminar el atributo "homepage" en package.json y ejecutar en la terminal ctrl+c y en la terminal:
+```
+npm start
+```

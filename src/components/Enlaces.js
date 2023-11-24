@@ -20,12 +20,6 @@ const scaleLink = enlaces.scaleLink;
 const margin = enlaces.margin;
 const padding = enlaces.padding;
 const border = enlaces.border;
-const newColor = enlaces.newColor;
-console.log('data', data)
-if (newColor && newColor === 'si') {
-	console.log('newColor', newColor)
-	colorFondo = "#000000" 
-}
 
 const EnlacesListItem = styled.li
 `
@@ -52,6 +46,7 @@ const Enlace = styled.a`
 	text-transform: ${textTransform};
 	transform: scale(1);
   	transition: transform 0.3s ease;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
 
 	&:hover {
 		background-color: ${colorHover};
@@ -74,7 +69,7 @@ function generateLi(links) {
       <>
         {links.filter(link => link.render === 'si').map((link, index) => (
 			<EnlacesListItem key={index}>
-				<Enlace target='blank' href={link.url} style={index === 0 && link.newColor === 'si' ? { backgroundColor: '#ecdd5b', color: "#000", borderColor:"#ecdd5b" } : null}>
+				<Enlace target='blank' href={link.url} >
 					{link.iconImg ? (
 					<img src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
 					) : (

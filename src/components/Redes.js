@@ -40,7 +40,7 @@ const ASocial = styled.a`
 const IconSocial =  styled(FontAwesomeIcon)`
     text-decoration: none;
     font-size: 1.5rem;
-    color: #D9D9D9
+    color: #1F1F29
 `
 
 
@@ -58,7 +58,6 @@ function Redes({ redes }) {
                                     ) : (
                                         <IconSocial icon={iconMap[red.icon]} />
                                     )}
-                                    {/* <IconSocial icon={iconMap[red.icon]} /> */}
                                 </ASocial>
                             </LiSocial>
                         )
