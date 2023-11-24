@@ -102,8 +102,16 @@
       { 
         "icon": "faFacebook",
         "iconImg": "",
-        "nombre": " Pedí aquí tu Página de Links Gratis!",
+        "nombre": "Pedí aquí tu Página de Links Gratis!",
         "url": "https://rappidtech.com/links/",
+        "render": "si",
+        "newColor": "si"
+      },
+      { 
+        "icon": "faFacebook",
+        "iconImg": "",
+        "nombre": "Conoce todos nuestros servicios",
+        "url": "https://rappidtech.com/landing-page",
         "render": "si",
         "newColor": "si"
       },
