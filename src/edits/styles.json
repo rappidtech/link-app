@@ -1,6 +1,6 @@
 {
     "general": {
-      "backgroundColor": "linear-gradient(to right, #C193C5, #7BC6CC);"
+      "backgroundColor": "linear-gradient(to right, #F6D365, #FDA085);"
     },
     "logo": {
         "logoSize": "16vh"
