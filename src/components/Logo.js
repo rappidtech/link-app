@@ -10,9 +10,9 @@ const LogoContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
-    margin: 10vh 0 5vh 0;
+    margin: 5vh 0 3vh 0;
 `
 
 const LogoImg = styled.img`

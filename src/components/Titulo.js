@@ -13,10 +13,14 @@ const TituloContainer = styled.div`
     text-transform: ${textTransform};
 `
 
+const TituloText = styled.h1`
+    margin: 0 0 0 0;};
+`
+
 function Titulo({ text }) {
     return (
         <TituloContainer>
-            <h1>{text}</h1>
+            <TituloText>{text}</TituloText>
         </TituloContainer>
     );
 }

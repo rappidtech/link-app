@@ -38,6 +38,10 @@ const FooterContainer = styled.footer`
     justify-content: center;
 `
 
+const Main = styled.main`
+    margin: 8px 0 12px 0;
+`
+
 function App() {
     
     const [mostrarTarjeta, setMostrarTarjeta] = useState(false);
@@ -61,11 +65,11 @@ function App() {
                     <Logo src={data.logo} link={data.enlacePrincipal}/>
                     <Titulo text={data.titulo}/>
                     <Subtitulo text={data.subtitulo}/>
-                </header>
-                <main>
                     <Descripcion text={data.descripcion}></Descripcion>
+                </header>
+                <Main>
                     <Enlaces links={data.enlaces} />  
-                </main>
+                </Main>
                 <FooterContainer>
                     <Redes redes={data.redes} />
                     <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>

@@ -16,6 +16,7 @@ const SubtituloContainer = styled.div`
 
 const P = styled.p`
     font-weight: ${fontWeigth};
+    margin: 2px 0 2px 0;
 `
 
 function Subtitulo({ text }) {
