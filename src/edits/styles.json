@@ -1,17 +1,24 @@
 {
     "general": {
-      "backgroundColor": "url(./img/icons/Fondo.png)"
+      "backgroundColor": "#AC5353", 
+      "headerBackground": "url(./img/icons/Portada.png)",
+      "headerBackgroundSize": "cover",
+      "headerBackgroundPosition": "center",
+      "headerBackgroundRepeat": "",
+      "headerHeight": "15vh",
+      "headerWidth": "100vw",
+      "headerPosition": "absolute"
     },
     "logo": {
         "logoSize": "14vh"
     },
     "titulo": {
-      "colorTexto": "#1F1F29",
+      "colorTexto": "#F9F9F9",
       "fontSize": "0.9rem",
       "textTransform": "none"
     },
     "subtitulo": {
-      "colorTexto": "#1F1F29",
+      "colorTexto": "#F9F9F9",
       "fontSize": "1rem",
       "fontWeigth": "regular",
       "textTransform": "none"
@@ -24,32 +31,40 @@
     },
     "enlaces": {
       "colorTexto": "#F9F9F9", 
-      "colorFondo": "#D1658C",
-      "colorHover": "#DC7CA3",
-      "colorActive": "#B25470",
-      "borderRadius": "25px",
+      "colorFondo": "#C46060",
+      "colorHover": "#D47A7A",
+      "colorActive": "",
+      "borderRadius": "5px",
       "colorIcon": "#1F1F29",
       "fontWeigth": "600",
       "fontSize": "1.5rem",
       "textTransform": "none",
-      "scaleLink": "scale(1.05)",
-      "margin": "3px 0",
+      "scaleLink": "scale(1)",
+      "margin": "8px 0",
       "padding": "9px 20px",
-      "border": "1px solid #d9d9d9"     
+      "border": "1px solid #C46060",  
+      "justifyContent": "",   
+      "widthMD": "35vw",
+      "widthSM": "60vw"
+    },
+    "carrusel": {
+      "height": "100px",
+      "width": "100px"
     },
     "redes": {
         "colorPrincipal": "rgba(120, 211, 46, 0)",
         "colorHover": "rgba(113, 199, 43, 0)",
         "margin": "-5px",
-        "padding": "0"
+        "padding": "0",
+        "colorIconSVG": "#F9F9F9"
     },
     "footer": {
       "colorTexto": "#F9F9F9",
-      "backgroundColor": "",
+      "backgroundColor": "#1E1E1E",
       "height": "20vh"
     },
     "compartir": {
-      "fondoIcon": "#D1658C",
+      "fondoIcon": "#1E1E1E",
       "colorIcon":"#F9F9F9"
     }
   }

@@ -9,10 +9,12 @@ import Redes from './components/Redes.js';
 import BotonCompartir from './components/Compartir.js';
 import TarjetaCompartir from './components/MenuCompartir.js';
 import ContactBanner from './components/ContactBanner.js';
+import HeaderBackground from './components/HeaderBackground.js';
 import data from './edits/data.json';
 import styled from 'styled-components';
 import styles from './edits/styles.json';
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const { general, footer } = styles;
@@ -22,7 +24,7 @@ const height = footer.height
 
 
 const AppContainer = styled.div`
-    background-image: ${fondoApp};
+    background: ${fondoApp};
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +41,7 @@ const FooterContainer = styled.footer`
 `
 
 const Main = styled.main`
-    margin: 8px 0 12px 0;
+    margin: -20px 0 12px 0;
 `
 
 function App() {
@@ -54,6 +56,8 @@ function App() {
         <>
             <TarjetaCompartir mostrar={mostrarTarjeta} onCerrar={toggleTarjeta} />
             <AppContainer className="App">
+                <HeaderBackground/> 
+                
                 <div>
                     <BotonCompartir onToggle={toggleTarjeta} />
                 </div>
@@ -61,17 +65,18 @@ function App() {
                     <ContactBanner/>
                 </div>
                 
+                
                 <header className="App-header">
                     <Logo src={data.logo} link={data.enlacePrincipal}/>
                     <Titulo text={data.titulo}/>
                     <Subtitulo text={data.subtitulo}/>
                     <Descripcion text={data.descripcion}></Descripcion>
                 </header>
-                    <Redes redes={data.redes} />
                 <Main>
                     <Enlaces links={data.enlaces} />  
                 </Main>
                 <FooterContainer>
+                    <Redes redes={data.redes} />
                     <Footer poweredBy={data.poweredBy} link={data.enlaceRappid}/>
                 </FooterContainer>
             </AppContainer> 

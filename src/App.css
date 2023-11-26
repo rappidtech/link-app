@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 #root {
   height: 100vh;
   display: flex;
@@ -13,6 +18,10 @@
   justify-content: space-between;
   flex: 1;
   overflow: auto;
+}
+
+.App-header {
+  margin-top: -100px;
 }
 
 .powered-by {
@@ -35,4 +44,10 @@
   50% {
     top: 120px;
   }
+}
+
+
+
+.App, .App-header {
+  position: relative;
 }

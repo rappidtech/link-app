@@ -14,7 +14,7 @@ const A = styled.a`
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     cursor: pointer;
-    z-index: 1000;
+    z-index: 50;
     text-decoration: none;
     animation: moveUpDown 1.8s ease-in-out infinite;
     

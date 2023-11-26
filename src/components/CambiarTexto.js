@@ -9,21 +9,26 @@ const Enlace = styled.a`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    color: #000000;
+	text-decoration: none !important; 
     
     &:hover {
         cursor: pointer;
         background-color: #f4f4f4;
+		text-decoration: none !important; 
     }
 `
 
+const textoCopiar = 'Copiar enlace'
+
 function BotonCompartir({ url }) {
-  const [textoBoton, setTextoBoton] = useState('Copiar');
+  const [textoBoton, setTextoBoton] = useState(textoCopiar);
   const space = " "
   const copiarAlPortapapeles = () => {
     navigator.clipboard.writeText(url)
       .then(() => {
-        setTextoBoton('Copiado');
-        setTimeout(() => setTextoBoton('Copiar'), 3000); // Cambia de nuevo a "Copiar" después de 3 segundos
+        setTextoBoton('¡Copiado!');
+        setTimeout(() => setTextoBoton(textoCopiar), 3000); // Cambia de nuevo a "Copiar" después de 3 segundos
       })
       .catch(err => {
         console.error("Error al copiar texto: ", err);
@@ -33,11 +38,12 @@ function BotonCompartir({ url }) {
 
 return (
     <Enlace onClick={copiarAlPortapapeles}>
-        <FontAwesomeIcon icon={faCopy} size="1x" />
-        <div style={{ margin: "0 10px" }}>
-            {url}
-        </div>
-        {textoBoton}
+		<div >
+			<FontAwesomeIcon icon={faCopy} size="1x" />
+		</div>
+		<div style={{ margin: "0 10px" }}>
+			{textoBoton}
+		</div>
     </Enlace>
 );
 }

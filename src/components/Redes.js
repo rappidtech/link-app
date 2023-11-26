@@ -9,6 +9,7 @@ const colorPrincipal = redes.colorPrincipal;
 const colorHover = redes.colorHover;
 const padding = redes.padding;
 const margin = redes.margin;
+const colorIconSVG = redes.colorIconSVG;
 
 const UlSocial = styled.ul`
     margin: ${margin};
@@ -40,7 +41,7 @@ const ASocial = styled.a`
 const IconSocial =  styled(FontAwesomeIcon)`
     text-decoration: none;
     font-size: 1.5rem;
-    color: #1F1F29
+    color: ${colorIconSVG}
 `
 
 

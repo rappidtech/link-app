@@ -13,7 +13,7 @@ const enlaceRappid = data.enlaceRappid;
 const MenuCompartir = styled.div`
     display: ${props => props.mostrar ? 'flex' : 'none'};
     position: absolute;
-    z-index: 1;
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
@@ -85,6 +85,7 @@ const Enlace = styled.a`
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    text-decoration: none;
     
     &:hover {
         cursor: pointer;
@@ -157,12 +158,12 @@ function TarjetaCompartir({ mostrar, onCerrar }) {
                 </ListaRedes>
                 <Center>
                     <Enlace>
-                            <BotonCompartir url={enlacePrincipal} />
+                        <BotonCompartir url={enlacePrincipal} />
                     </Enlace>
                 </Center>
                 <Center>
                     <P href={enlaceRappid}>
-                        Crea tus propios sitios con Rappid Tech
+                        Crea tus sitios con Rappid Tech
                     </P>
                 </Center>
         

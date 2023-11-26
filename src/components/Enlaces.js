@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import iconMap from '../iconMap'
 import styled from 'styled-components';
 import styles from '../edits/styles.json';
+import { useState } from 'react';
+import AccordionButton from './Accordion.js';
 import data from '../edits/data.json';
 
 const { enlaces, general } = styles;
@@ -21,6 +23,9 @@ const margin = enlaces.margin;
 const padding = enlaces.padding;
 const border = enlaces.border;
 const colorActive = enlaces.colorActive;
+const justifyContent = enlaces.justifyContent;
+const widthMD = enlaces.widthMD;
+const widthSM = enlaces.widthSM;
 
 const EnlacesListItem = styled.li
 `
@@ -31,7 +36,7 @@ const EnlacesListItem = styled.li
 
 const Enlace = styled.a`
 	flex-grow: 1;
-	width: 25vw;
+	width: ${widthMD};
 	padding: ${padding};
 	margin: ${margin};
 	background-color: ${colorFondo};
@@ -41,13 +46,15 @@ const Enlace = styled.a`
 	text-decoration: none;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: ${justifyContent};
+	
 	border-radius: ${borderRadius};
 	border: ${border};	
 	text-transform: ${textTransform};
 	transform: scale(1);
   	transition: transform 0.3s ease;
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+	cursor: pointer;
 
 	&:hover {
 		background-color: ${colorHover};
@@ -58,7 +65,7 @@ const Enlace = styled.a`
 		background-color: ${colorActive};
 	}
 	@media (max-width: 768px) {
-		width: 60vw;
+		width: ${widthSM};
 	}
 `;
 
@@ -68,37 +75,49 @@ const Icono = styled(FontAwesomeIcon)`
 	font-size: ${fontSize};
 `;
 
-function generateLi(links) {
-    return (
-      <>
-        {links.filter(link => link.render === 'si').map((link, index) => (
-			<EnlacesListItem key={index}>
-				<Enlace target='blank' href={link.url} >
-					{link.iconImg ? (
-					<img className='icon-delete' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
-					) : (
-						<Icono className='icon-link' icon={iconMap[link.icon]} />
-					)}
-					{link.nombre}
-					{link.iconImg ? (
-					<img className='icon-delete' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
-					) : (
-						<Icono style="" className='icon-delete' icon={iconMap[link.icon]} />
-					)}
-				</Enlace>
-			</EnlacesListItem>
+const arrow = "./img/svg/arrow.svg";
 
-        ))} 
-      </>
-    );
+function Enlaces(links) {
+	
+	const accordionLinks = links.links.filter(link => link.render === 'si' && link.accordion === 'si');
+    const regularLinks = links.links.filter(link => link.render === 'si' && link.accordion !== 'si');
+	console.log('accordionLinks', accordionLinks)
+    return (
+		(	<>
+				<ListGroup>
+					<AccordionButton links={accordionLinks}>
+						{accordionLinks.map((link, index) => (
+							<EnlacesListItem key={index}>		
+								<p>Hola</p>
+							</EnlacesListItem>
+						))}		
+					</AccordionButton>		
+					{regularLinks.map((link, index) => (
+						<EnlacesListItem key={index}>
+							<Enlace href={link.url} target='blank' >
+								{link.iconImg ? (
+									<img className='icon-link' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
+									) : (
+										<Icono className='icon-link' icon={iconMap[link.icon]} />
+										)}
+								{link.nombre}
+								<Icono style="" className='icon-delete' icon={iconMap[link.icon]} />							
+							</Enlace>
+						</EnlacesListItem>
+							
+					))} 
+				</ListGroup>
+			</>
+		  ));
+    ;
   }
   
-  function Enlaces({ links }) {
-    return (
-      <ListGroup>
-        {generateLi(links)}
-      </ListGroup>
-    );
-  }
+//   function Enlaces({ links }) {
+//     return (
+      
+//         {generateLi(links)}
+      
+//     );
+//   }
 
 export default Enlaces;
