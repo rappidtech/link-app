@@ -3,12 +3,14 @@ import styled from 'styled-components';
 import styles from '../edits/styles.json';
 
 const { subtitulo, general } = styles;
+const marginTop = subtitulo.marginTop;
 const colorTexto = subtitulo.colorTexto;
 const fontSize = subtitulo.fontSize;
 const textTransform = subtitulo.textTransform;
 const fontWeigth = subtitulo.fontWeigth;
 
 const SubtituloContainer = styled.div`
+    margin-top: ${marginTop};
     color: ${colorTexto};
     font-size: ${fontSize};
     text-transform: ${textTransform};

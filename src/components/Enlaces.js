@@ -26,6 +26,8 @@ const colorActive = enlaces.colorActive;
 const justifyContent = enlaces.justifyContent;
 const widthMD = enlaces.widthMD;
 const widthSM = enlaces.widthSM;
+const leftIcon = enlaces.leftIcon;
+const rightIcon = enlaces.rightIcon;
 
 const EnlacesListItem = styled.li
 `
@@ -96,12 +98,12 @@ function Enlaces(links) {
 						<EnlacesListItem key={index}>
 							<Enlace href={link.url} target='blank' >
 								{link.iconImg ? (
-									<img className='icon-link' src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
+									<img className={leftIcon} src={link.iconImg} alt={link.nombre} style={{ marginRight: '10px' }} />
 									) : (
-										<Icono className='icon-link' icon={iconMap[link.icon]} />
+										<Icono className={leftIcon} icon={iconMap[link.icon]} />
 										)}
 								{link.nombre}
-								<Icono style="" className='icon-delete' icon={iconMap[link.icon]} />							
+								<Icono style="" className={rightIcon} icon={iconMap[link.icon]} />							
 							</Enlace>
 						</EnlacesListItem>
 							

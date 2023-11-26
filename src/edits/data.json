@@ -1,10 +1,10 @@
 {
 	"logo": "./img/icons/logo.png",
-	"titulo": "SUPERMARKET",
-	"subtitulo": "Supermercado Boutique de Alimentos \n Gourmet y Orgánicos", 
+	"titulo": "FENDI COFFEE BAR",
+	"subtitulo": "Un coffee bar moderno y elegante \ncon especialidades en café de origen y \ndiseño minimalista.", 
 	"descripcion": "",
 	"poweredBy": "RappidTech",
-	"enlacePrincipal": "https://rappidtech.com/links/demo7",
+	"enlacePrincipal": "https://rappidtech.com/links/demo8",
 	"enlacePrinCorto": "rappidtech.com/links",
 	"enlaceRappid": "https://rappidtech.com/links",
 	"redes": [
@@ -102,16 +102,16 @@
 		{ 
 		"icon": "faWhatsapp",
 		"iconImg": "./img/svg/food.svg",
-		"nombre": "Productos",
+		"nombre": "Fiverr",
 		"url": "https://rappidtech.com/links",
 		"render": "si",
 		"newColor": "no",
-		"accordion": "si"
+		"accordion": "no"
 		},
 		{ 
 		"icon": "faWhatsapp",
 		"iconImg": "./img/svg/whatsapp.svg",
-		"nombre": "Whatsapp",
+		"nombre": "Upwork",
 		"url": "https://rappidtech.com/links/",
 		"render": "si",
 		"newColor": "no",
@@ -120,7 +120,7 @@
 		{ 
 		"icon": "faInstagram",
 		"iconImg": "./img/svg/instagram.svg",
-		"nombre": "Instagram",
+		"nombre": "Behance",
 		"url": "https://rappidtech.com/links",
 		"render": "si",
 		"newColor": "no",
@@ -129,18 +129,18 @@
 		{ 
 		"icon": "faLinkedin",
 		"iconImg": "./img/svg/linkedin.svg",
-		"nombre": "LinkedIn",
+		"nombre": "Dribbble",
 		"url": "https://rappidtech.com/links",
-		"render": "no",
+		"render": "si",
 		"newColor": "no",
 		"accordion": "no" 
 		},
 		{ 
 		"icon": "faGithub",
 		"iconImg": "./img/svg/github.svg",
-		"nombre": "TikTok",
+		"nombre": "GitHub",
 		"url": "https://rappidtech.com/links",
-		"render": "no",
+		"render": "si",
 		"newColor": "no",
 		"accordion": "no" 
 		},

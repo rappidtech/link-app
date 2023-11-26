@@ -1,6 +1,6 @@
 {
     "general": {
-      "backgroundColor": "#AC5353", 
+      "backgroundColor": "#96B6E2", 
       "headerBackground": "url(./img/icons/Portada.png)",
       "headerBackgroundSize": "cover",
       "headerBackgroundPosition": "center",
@@ -10,16 +10,19 @@
       "headerPosition": "absolute"
     },
     "logo": {
-        "logoSize": "14vh"
+      "marginTop": "15vh",
+      "logoSize": "14vh"
     },
     "titulo": {
-      "colorTexto": "#F9F9F9",
-      "fontSize": "0.9rem",
+      "marginTop": "5vh",
+      "colorTexto": "#1F1F29",
+      "fontSize": "1.5rem",
       "textTransform": "none"
     },
     "subtitulo": {
-      "colorTexto": "#F9F9F9",
-      "fontSize": "1rem",
+      "marginTop": "2vh",
+      "colorTexto": "#1F1F29",
+      "fontSize": "0.8rem",
       "fontWeigth": "regular",
       "textTransform": "none"
     },
@@ -30,11 +33,11 @@
       "textTransform": "none"
     },
     "enlaces": {
-      "colorTexto": "#F9F9F9", 
-      "colorFondo": "#C46060",
-      "colorHover": "#D47A7A",
-      "colorActive": "",
-      "borderRadius": "5px",
+      "colorTexto": "#1F1F29", 
+      "colorFondo": "#CADAF0",
+      "colorHover": "#D4DBF5",
+      "colorActive": "#A9B8D3",
+      "borderRadius": "10px",
       "colorIcon": "#1F1F29",
       "fontWeigth": "600",
       "fontSize": "1.5rem",
@@ -42,10 +45,12 @@
       "scaleLink": "scale(1)",
       "margin": "8px 0",
       "padding": "9px 20px",
-      "border": "1px solid #C46060",  
-      "justifyContent": "",   
-      "widthMD": "35vw",
-      "widthSM": "60vw"
+      "border": "0px solid #C46060",  
+      "justifyContent": "space-between",   
+      "widthMD": "25vw",
+      "widthSM": "60vw",
+      "leftIcon": "icon-delete",
+      "rightIcon": "icon-delete"
     },
     "carrusel": {
       "height": "100px",

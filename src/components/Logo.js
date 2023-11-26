@@ -5,14 +5,15 @@ import styles from '../edits/styles.json';
 const { logo } = styles;
 
 const logoSize = logo.logoSize;
+const marginTop = logo.marginTop;
 
 const LogoContainer = styled.div`
+    margin-top: ${marginTop};
     display: flex;
     align-items: center;
     justify-content: center;
     height: 8vh;
     width: 100%;
-    margin: 5vh 0 3vh 0;
 `
 
 const LogoImg = styled.img`
