@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 #root {
   height: 100vh;
   display: flex;
@@ -7,18 +12,42 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
   background-color: #fff;
   color: white;
   align-items: center;
   justify-content: space-between;
   flex: 1;
-  overflow: hidden;
+  overflow: auto;
 }
 
+.App-header {
+  margin-top: -100px;
+}
 
 .powered-by {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.icon-delete {
+  color: rgba(0, 0, 0, 0);
+  fill: rgba(0, 0, 0, 0);
+  stroke: rgba(0, 0, 0, 0);
+  visibility: hidden;
+}
+
+@keyframes moveUpDown {
+  0%, 100% {
+    top: 100px;
+  }
+  50% {
+    top: 120px;
+  }
+}
+
+
+
+.App, .App-header {
+  position: relative;
 }

@@ -7,6 +7,7 @@ const colorTexto = footer.colorTexto;
 
 const PContainer = styled.p`
 	color: ${colorTexto};
+	margin: 0;
 `
 
 const AFooter = styled.a`

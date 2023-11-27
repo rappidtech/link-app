@@ -9,6 +9,7 @@ const colorPrincipal = redes.colorPrincipal;
 const colorHover = redes.colorHover;
 const padding = redes.padding;
 const margin = redes.margin;
+const colorIconSVG = redes.colorIconSVG;
 
 const UlSocial = styled.ul`
     margin: ${margin};
@@ -24,7 +25,7 @@ const ASocial = styled.a`
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 0 10px;
+    margin: 0 0px;
     background-color: ${colorPrincipal};
     border-radius: 50%;
     width: 40px;
@@ -40,7 +41,7 @@ const ASocial = styled.a`
 const IconSocial =  styled(FontAwesomeIcon)`
     text-decoration: none;
     font-size: 1.5rem;
-    color: white
+    color: ${colorIconSVG}
 `
 
 
@@ -52,8 +53,12 @@ function Redes({ redes }) {
                     {
                         return (
                             <LiSocial>
-                                <ASocial href={red.url}>
-                                    <IconSocial icon={iconMap[red.icon]} />
+                                <ASocial target='blank' href={red.url}>
+                                    {red.iconImg ? (
+                                    <img src={red.iconImg} alt={red.nombre} style={{ marginRight: '10px' }} />
+                                    ) : (
+                                        <IconSocial icon={iconMap[red.icon]} />
+                                    )}
                                 </ASocial>
                             </LiSocial>
                         )

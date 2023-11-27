@@ -3,20 +3,26 @@ import styled from 'styled-components';
 import styles from '../edits/styles.json';
 
 const { titulo, general } = styles;
+const margin = titulo.margin;
 const colorTexto = titulo.colorTexto;
 const fontSize = titulo.fontSize;
 const textTransform = titulo.textTransform;
 
 const TituloContainer = styled.div`
+    margin: ${margin};
     color: ${colorTexto};
-    font-size: ${fontSize};
     text-transform: ${textTransform};
+    `
+    
+const TituloText = styled.h1`
+    font-size: ${fontSize};
+    margin: 0 0 0 0;};
 `
 
 function Titulo({ text }) {
     return (
         <TituloContainer>
-            <h1>{text}</h1>
+            <TituloText>{text}</TituloText>
         </TituloContainer>
     );
 }

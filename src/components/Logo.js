@@ -5,14 +5,15 @@ import styles from '../edits/styles.json';
 const { logo } = styles;
 
 const logoSize = logo.logoSize;
+const margin = logo.margin;
 
 const LogoContainer = styled.div`
+    margin: ${margin};
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
-    margin: 10vh 0 5vh 0;
 `
 
 const LogoImg = styled.img`
@@ -25,7 +26,7 @@ const LogoImg = styled.img`
 function Logo({ src, link }) {
     return (
         <LogoContainer>
-            <a href={link}><LogoImg src={src} alt="Logo" /></a>
+            <a target='blank' href={link}><LogoImg src={src} alt="Logo" /></a>
         </LogoContainer>
     );
 }
