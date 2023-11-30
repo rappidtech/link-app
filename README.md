@@ -10,6 +10,14 @@ cd link-app
 npm install
 npm start
 ```
+
+Si se debe copiar un Branch específico, utilizar el siguiente Prompt
+```bash
+git clone -b branch https://github.com/rappidtech/link-app.git
+cd link-app
+npm install
+npm start
+```
 Esto abrira la aplicacion en http://localhost:3000/
 
 ## Personalizaciones
